@@ -16,6 +16,38 @@ export const useStyles = makeStyles({
     alignItems: "center",
     gap: tokens.spacingHorizontalS,
   },
+  headerExtras: {
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "flex-end",
+    flexWrap: "wrap",
+    gap: tokens.spacingHorizontalM,
+  },
+  linkedProduct: {
+    display: "flex",
+    alignItems: "center",
+    gap: tokens.spacingHorizontalS,
+    minWidth: 0,
+  },
+  linkedProductImage: {
+    width: "44px",
+    height: "44px",
+    flexShrink: 0,
+    objectFit: "contain",
+    borderRadius: tokens.borderRadiusSmall,
+    backgroundColor: tokens.colorNeutralBackground3,
+  },
+  linkedProductText: {
+    display: "flex",
+    flexDirection: "column",
+    minWidth: 0,
+  },
+  linkedProductName: {
+    maxWidth: "180px",
+    overflow: "hidden",
+    textOverflow: "ellipsis",
+    whiteSpace: "nowrap",
+  },
   name: {
     fontWeight: tokens.fontWeightSemibold,
   },
