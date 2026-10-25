@@ -1,6 +1,7 @@
 <entities>
   <entity name="lab_warehouselocation" displayname="Warehouse Location"
-          primaryidfield="lab_warehouselocationid" primarynamefield="lab_name" disableplugins="true">
+          primaryidfield="lab_warehouselocationid" primarynamefield="lab_name"
+          disableplugins="true">
     <fields>
       <field displayname="Warehouse Location" name="lab_warehouselocationid" type="guid" primaryKey="true" />
       <field displayname="Name" name="lab_name" type="string" customfield="true" />
@@ -10,7 +11,8 @@
     </fields>
   </entity>
   <entity name="lab_product" displayname="Product"
-          primaryidfield="lab_productid" primarynamefield="lab_name" disableplugins="true">
+          primaryidfield="lab_productid" primarynamefield="lab_name"
+          disableplugins="true">
     <fields>
       <field displayname="Product" name="lab_productid" type="guid" primaryKey="true" />
       <field displayname="Name" name="lab_name" type="string" customfield="true" />
@@ -22,7 +24,8 @@
     </fields>
   </entity>
   <entity name="lab_warehouseitem" displayname="Warehouse Item"
-          primaryidfield="lab_warehouseitemid" primarynamefield="lab_name" disableplugins="true">
+          primaryidfield="lab_warehouseitemid" primarynamefield="lab_name"
+          disableplugins="true">
     <fields>
       <field displayname="Warehouse Item" name="lab_warehouseitemid" type="guid" primaryKey="true" />
       <field displayname="Name" name="lab_name" type="string" customfield="true" />
@@ -37,7 +40,8 @@
     </fields>
   </entity>
   <entity name="lab_warehousetransaction" displayname="Warehouse Transaction"
-          primaryidfield="lab_warehousetransactionid" primarynamefield="lab_name" disableplugins="true">
+          primaryidfield="lab_warehousetransactionid" primarynamefield="lab_name"
+          disableplugins="true">
     <fields>
       <field displayname="Warehouse Transaction" name="lab_warehousetransactionid" type="guid" primaryKey="true" />
       <field displayname="Name" name="lab_name" type="string" customfield="true" />
@@ -48,3 +52,4 @@
     </fields>
   </entity>
 </entities>
+
